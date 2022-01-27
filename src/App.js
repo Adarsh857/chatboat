@@ -6,17 +6,18 @@ import ChatFeed from './components/ChatFeed';
 import './App.css';
 
 const App = () => {
-    if (!localStorage.getItem('username')) return <LoginForm />;    
-    
-    return (
-        <ChatEngine
-          height="100vh"
-          projectID="7bfa8423-bdbf-4fcf-95b5-a5fa58233a43"
-          userName={localStorage.getItem('username')}
-          userSecret={localStorage.getItem('password')}
-          renderChatFeed={(chatAppProps) => <ChatFeed {...chatAppProps} />}
-        />
-    );
-}
+        if (!localStorage.getItem('username')) return <LoginForm / > ;
 
-export default App;
+        return ( <
+            ChatEngine height = "100vh"
+            projectID = "bf2e635d-8c10-476f-8457-cae21a17eecd"
+            userName = { localStorage.getItem('username') }
+            userSecret = { localStorage.getItem('password') }
+            renderChatFeed = {
+                (chatAppProps) => < ChatFeed {...chatAppProps }
+                />} /
+                >
+            );
+        }
+
+        export default App;
