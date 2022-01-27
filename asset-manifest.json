@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/chatboat/static/css/main.5b87525c.css",
+    "main.js": "/chatboat/static/js/main.f25eede3.js",
+    "index.html": "/chatboat/index.html",
+    "main.5b87525c.css.map": "/chatboat/static/css/main.5b87525c.css.map",
+    "main.f25eede3.js.map": "/chatboat/static/js/main.f25eede3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b87525c.css",
+    "static/js/main.f25eede3.js"
+  ]
+}
